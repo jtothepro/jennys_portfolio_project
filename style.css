@@ -9,13 +9,15 @@ body {
 .hero {
   text-align: center;
   padding: 160px 0;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 .hero-text {
+  position: absolute;
+}
+.hero-image {
   position: absolute;
 }
 h1 {
