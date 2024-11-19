@@ -7,9 +7,16 @@ body {
   background-color: #a3de83;
 }
 .hero {
-  background-color: #1b1b1b;
   text-align: center;
   padding: 160px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.hero-text {
+  position: absolute;
 }
 h1 {
   color: white;
